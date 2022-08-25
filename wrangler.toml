@@ -1,0 +1,5 @@
+name = "countdown"
+main = "src/index.ts"
+compatibility_date = "2022-08-25"
+[triggers]
+crons = ["0 8 * * *"]
