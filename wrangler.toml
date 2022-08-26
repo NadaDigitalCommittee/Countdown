@@ -2,4 +2,4 @@ name = "countdown"
 main = "src/index.ts"
 compatibility_date = "2022-08-25"
 [triggers]
-crons = ["0 1 * * *"]
+crons = ["0 23 * * *"]
