@@ -41,7 +41,7 @@ export default {
 
 async function trigger(hook: string) {
 	const till = Math.round(
-		(Number(new Date("2022-09-25T08:00:00.000Z")) - Number(Date.now())) /
+		(Number(new Date("2022-09-23T08:00:00.000Z")) - Number(Date.now())) /
 			86400000
 	).toString();
 	try {
